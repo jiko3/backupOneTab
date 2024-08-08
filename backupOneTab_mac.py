@@ -3,8 +3,8 @@ import os
 import shutil
 from datetime import datetime
 
-chromedata_path = '/home/jiko/.config/google-chrome/Default/Local Extension Settings/chphlpgkkbolifaimnlloiipkdnihall/' # this is your Chrome data path (make sure to replace <Username> with your user's username)
-local_path = '/home/jiko/jikodata/jikoData/Cert/Chrome OneTab/ubuntu/' # this is your backups folder path (you can change to anywhere but make sure to include the last backslash /)
+chromedata_path = '/Users/jiko/Library/Application Support/Google/Chrome/Default/Local Extension Settings/chphlpgkkbolifaimnlloiipkdnihall/' # this is your Chrome data path (make sure to replace <Username> with your user's username)
+local_path = '/Users/jiko/SynologyDrive/JikoData/Cert/Chrome OneTab/mac/' # this is your backups folder path (you can change to anywhere but make sure to include the last backslash /)
 exclude_file = 'LOCK' 
 
 def backup():
